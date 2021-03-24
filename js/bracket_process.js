@@ -50,8 +50,6 @@ export function convert_to_postfix(arr){
 					// if a_i is number and last elemnt of ooperator is x/ => push last elemnet of operator to operand
 					operand.push(operator[operator.length-1]);
 					operator = operator.slice(0,-1);
-				}else {
-					// if(operator.length>=2 &&)
 				}
 			}
 		// case 2: a_i is x/+-
